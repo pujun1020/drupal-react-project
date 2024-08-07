@@ -1,0 +1,137 @@
+
+.titleclass{
+    color: #374151;
+    cursor: pointer;
+}
+.titleclass2{
+    color: #374151;
+}
+.titleclass1{
+    text-align: center;
+    margin-right: 30px;
+}
+.svgicon svg{
+    width: 15px;
+}
+.linetimesvgtime{
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.linetimesvgtime svg{
+    max-width: 15px;
+}
+.linetimelinebg{
+    height: 5px;
+    width: 100%;
+    background-image: linear-gradient(to right,#dcfce7,#16a34a);
+    background-position-x: center;
+    background-size: 50% 100%;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+}
+.titleclass:nth-child(2){
+    text-align: center;
+}
+.persontextsstarttime,.persontextsendtime{
+    display: flex;
+    gap: 6px;
+}
+.personicondetails{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.personicon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #374151;
+    border-radius: 5px;
+}
+.linetime{
+    margin-right: 30px;
+}
+
+.personicondetail {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+:where(.css-dev-only-do-not-override-p7e5j5).ant-table-wrapper table {
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+    margin-top: 20px;
+}
+
+
+
+/* table */
+/* Border styles */
+#table-4 thead,
+#table-4 tr {
+    border-top-width: 1px;
+    border-top-style: solid;
+    height: 60px;
+}
+thead tr th {
+    text-align: left;
+    height: 60px;
+    font-weight: 600 !important;
+    background: rgba(249,250,251,1);
+}
+thead tr th:nth-child(2) {
+    text-align: center;
+}
+
+tbody tr td {
+    padding-top: 30px !important;
+    padding-bottom: 25px !important;
+}
+#table-4 {
+    border: 1px solid #e5e7eb;
+    width: 100%;
+    padding-bottom: 40px;
+    margin-top: 25px;
+    border-collapse: collapse;
+}
+
+
+/* Padding and font style */
+#table-4 td, #table-4 th {
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: Verdana;
+    color: #3f4958;
+    font-weight: 500;
+}
+
+
+/* Alternating background colors */
+
+#table-4 tr:nth-child(odd) {
+    background: #FFF
+}
+.persontextstime {
+    font-size: 14px;
+}
+.persontextsname {
+    margin-bottom: 8px;
+    font-size: 16px;
+}
+.linetimesvgtimetext {
+    font-size: 14px;
+}
+.active-fraction {
+    font-size: 14px;
+}
+.message-icon svg {
+    max-width: 25px;
+}
+.scroll-td {
+    max-height: 150px;
+    overflow-y: auto;
+}

@@ -1,0 +1,53 @@
+.timewapper-box3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 2px solid #374151;
+    border-radius: 5px;
+}
+.timewapper-box2 img{
+    width: 150px;
+    height: 85px;
+}
+.timewapper-box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-bottom: 1px solid #e5e7eb;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.timewapper-box1{
+    height: 40px;
+    background: #f3f4f6;
+    line-height: 40px;
+    padding-left: 20px;
+}
+.timewapper{
+    margin-top: 15px;
+}
+
+.timewapper-box3-wapper{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.user-name-wapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 180px;
+}
+.timeLine-box-wapper{
+    position: relative;
+    width: 100%;
+}
+.time-line{
+    position: absolute;
+    height: 6px;
+    background-color: #e5e7eb;
+    border-radius: 3px;
+}

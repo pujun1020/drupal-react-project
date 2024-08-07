@@ -1,38 +1,148 @@
-.App {
-  text-align: center;
+
+
+.app {
+  max-width: 95%;
+  margin: 0 auto;
+  margin-top: 30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.pagetitlebox {
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pagetitlebox .left,
+.pagetitlebox .right {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.lefttitletop,
+.righttitletop {
+  font-size: 24px;
+  color: #000;
+  font-weight: 600;
+  font-family: "Lato";
+}
+
+.mytag {
+  font-size: 20px;
+  padding: 6px;
+  border-radius: 5px;
+  margin-left: 12px;
+}
+
+.bottombox {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
+}
+
+.titletaggle {
+  margin-top: 50px;
+}
+
+.cardicon svg {
+  max-width: 25px;
+  color: #ec4899;
+}
+
+.cardicon {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(236, 72, 153, 0.1);
+  border-radius: 50%;
 }
-
-.App-link {
-  color: #61dafb;
+.card2 .cardicon{
+  background-color: #bbf7d0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card2 .cardicon svg {
+  max-width: 25px;
+  color: #15803d;
+}
+.card4 .cardicon{
+  background-color: #dbeafe;
+}
+.card4 .cardicon svg {
+  max-width: 25px;
+  color: #3b82f6;
+}
+.cards{
+  display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.cards a{
+  width: 25%;
+}
+.cards .card {
+  position: relative;
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 15px 15px 25px 15px;
+  border: 1px solid #e5e7eb;
+  border-bottom: 1px solid;
+  border-radius: 10px;
+  background: linear-gradient(to right,#ec4899,#ec4899) no-repeat;
+  background-size: 4px 100%;
+  background-position: left top;
+}
+.cards .card2{
+  position: relative;
+  background: linear-gradient(to right, #22c55e, #22c55e) no-repeat;
+  background-size: 4px 100%;
+  background-position: left top;
+}
+.cards .card .cardwapper{
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -5px;
+  height: calc(100% + 10px);
+  width: calc(100% + 10px);
+  border: 2px solid #ec4899;
+  border-radius: 10px;
+}
+.cards .card2 .cardwapper{
+  border: 2px solid #22c55e;
+}
+.cards .card3 .cardwapper{
+  border: 2px solid #a855f7;
+}
+.cards .card4 .cardwapper{
+  border: 2px solid #3b82f6;
+}
+.cards .card .cardwapper{
+  display: none;
+}
+.cards .card3{
+  background: linear-gradient(to right, #a855f7, #a855f7) no-repeat;
+  background-size: 4px 100%;
+  background-position: left top;
+}
+.cards .card4{
+  background: linear-gradient(to right, #3b82f6, #3b82f6) no-repeat;
+  background-size: 4px 100%;
+  background-position: left top;
+}
+.cardcount{
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.cardtext{
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.titletaggletext{
+  font-size: 24px;
+  font-weight: 600;
 }
