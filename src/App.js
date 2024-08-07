@@ -33,8 +33,7 @@ function App() {
   function titleTrigger(titleValue) {
     setTitledefaule(titleValue)
   }
-  
-  /* 卡片路由切换样式的改变 */
+  /* *卡片路由切换样式的改变 */
   const cardfun = (value, e) => {
     const cardElements = document.getElementsByClassName('cardwapper');
     for (let index = 0; index < cardElements.length; index++) {
